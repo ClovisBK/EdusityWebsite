@@ -9,6 +9,7 @@ import Testimonials from './Components/Testimonials/Testimonials'
 import Contact from './Components/Contact/Contact'
 import Footer from './Components/Footer/Footer'
 import VideoPlayer from './Components/VideoPlayer/VideoPlayer'
+import Alumni from './Components/Alumni/Alumni'
 
 
 const App = () => {
@@ -25,6 +26,8 @@ const [playState, setPlayState] = useState(false);
         <Campus/>
         <Title subTitle='TESTIMONIALS' title='What a student says!'/>
         <Testimonials/>
+        <Title subTitle='School Alumni' title='Our Notable Alumni'/>
+        <Alumni/>
         <Title subTitle='Contact Us' title='Get in Touch'/>
         <Contact/>
         <Footer/>
